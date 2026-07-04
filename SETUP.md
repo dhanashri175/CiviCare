@@ -27,9 +27,9 @@
 - Python 3.10+
 - Node.js 18+
 - PostgreSQL 14+
-- Gemini API Key (free from aistudio.google.com)
-- Twilio Account (free trial at twilio.com)
-- Cloudinary Account (existing from v3)
+- Gemini API Key – https://aistudio.google.com
+- Twilio Account – https://www.twilio.com
+- Cloudinary Account – https://cloudinary.com
 
 ---
 
@@ -57,13 +57,13 @@ uvicorn app.main:app --reload --port 8000
 ### .env file:
 ```
 DATABASE_URL=postgresql://postgres:YOUR_PASSWORD@localhost:5432/civicare_db
-SECRET_KEY=civicare-muni-secret-2025
-GEMINI_API_KEY=your_key_from_aistudio.google.com
-CLOUDINARY_CLOUD=dkuc9arra
-CLOUDINARY_PRESET=jalsetu_uploads
-TWILIO_ACCOUNT_SID=ACxxxxxxxxxxxx
-TWILIO_AUTH_TOKEN=your_auth_token
-TWILIO_PHONE_NUMBER=+1xxxxxxxxxx
+SECRET_KEY=YOUR_SECRET_KEY
+GEMINI_API_KEY=YOUR_GEMINI_API_KEY
+CLOUDINARY_CLOUD=YOUR_CLOUDINARY_CLOUD_NAME
+CLOUDINARY_PRESET=YOUR_CLOUDINARY_UPLOAD_PRESET
+TWILIO_ACCOUNT_SID=YOUR_TWILIO_ACCOUNT_SID
+TWILIO_AUTH_TOKEN=YOUR_TWILIO_AUTH_TOKEN
+TWILIO_PHONE_NUMBER=YOUR_TWILIO_PHONE_NUMBER
 ```
 
 ---
